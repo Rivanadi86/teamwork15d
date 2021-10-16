@@ -47,7 +47,7 @@
       
     .bottom-wrapper {
       text-align: center;
-      width: 25%;
+      width: 100%;
     }
     
     .header-right {
@@ -79,9 +79,6 @@
       width: 50%;
     }
       
-      .contact-item {
-      width: 50%;
-      }
   }
 
 
