@@ -147,29 +147,26 @@
     background-color: rgba(255, 255, 255, 0.3);
   }
   
-  .lesson-wrapper {
-  height: 720px;
-  width: 100%;
-  padding-bottom: 80px;
-  background-color: #eaf1ff;
-  background-size: cover;
-  text-align: center;
-  padding-top: 60px;
-  margin-top: 90px;
-  margin-bottom: 70px;
+   .profile-wrapper {
+    height: 700px;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #eaf1ff;
+    background-size: cover;
+    text-align: center;
+
   }
  
   .heading h1{
     color: #1b1a1b;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-size: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
   }
   
-  .lesson {
+  .profile {
     float: left;
     width: 18%;
-    height: 550px;
     background-color: #fff;
     padding: 5px;
     margin: 5px;
@@ -180,18 +177,18 @@
   .profile-icon {
     position: relative;
   }
-  .lesson img {
+  .profile img {
     width: 80%;
   }
   .sosmed-wrapper {
   margin: 10px 0;
 }
   
-  .lesson-icon {
+  .profile-icon {
     position: relative;
   }
   
-  .lesson-icon p {
+  .profile-icon p {
     position: absolute;
     top: 44%;
     width: 100%;
@@ -199,13 +196,15 @@
   }
   
   .txt-contents {
-    width: 80%;
+    width: 90%;
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
-    color: #b3aeb5;
+    color: #010057;
   }
   
+
+
   .heading h3 {
     font-weight: normal;
   }
