@@ -29,6 +29,7 @@
     margin: 0 auto;
   }
   .top-wrapper {
+    width: 100%;
     padding: 200px 0 150px 0;
     background-image: url(img3.jpg);
     background-size: cover;
@@ -304,4 +305,27 @@ footer p {
     letter-spacing: 15px;
     font-size: 30px;
     padding-top: 50px;
+  }
+
+
+
+.bottom-wrapper {
+    height: 300px;
+    width: 100%;
+  }
+  .contact {
+    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+  }
+  .contact-item {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact-list img {
+    width: 50%;
   }
