@@ -2,7 +2,7 @@
 @media all and (max-width: 1000px) {
 
     
-    .profile {
+    .lesson {
       width: 50%;
       margin-bottom: 50px;
     }
@@ -30,9 +30,7 @@
         font-size: 20px;
       } 
       
-      .heading
-
-    
+   
     footer {
       text-align: center;
     }
@@ -70,18 +68,8 @@
       line-height: 18px;
       text-align: left;
     }
-  .top-wrapper p {
-      font-size: 14px;
-      line-height:18px;
-      text-align: center;
-    }
-    .structure img{
-      width: 100%;
-    }
-      
-    .contack{
-      width: 30%;
-    }
+
+    
     footer {
       padding-top: 10px;
       width: 100%;
