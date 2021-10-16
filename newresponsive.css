@@ -18,8 +18,8 @@
   
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
-    .lesson {
-      width: 100%;
+    .profile {
+      width: 90%;
     }
     
     footer {
