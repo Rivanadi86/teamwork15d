@@ -1,0 +1,309 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1178px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .top-wrapper {
+    padding: 200px 0 150px 0;
+    background-image: url(img3.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+  }
+
+  @keyframes typingAnim {
+    from {width: 0}
+    to {width: 100%} 
+}
+
+  .bottom-wrapper{
+      width: 100%;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    animation: typingAnim 3s steps(50);
+    overflow: hidden;
+    white-space: nowrap;
+    
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+    animation: typingAnim 3s steps(50);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #48dbfb;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    padding: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+
+  .phone {
+  background-color: black;
+}
+
+.email {
+  background-color: #ff4757;
+}
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-transform: uppercase;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .lesson-wrapper {
+  height: 720px;
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: #eaf1ff;
+  background-size: cover;
+  text-align: center;
+  padding-top: 60px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  }
+ 
+  .heading h1{
+    color: #1b1a1b;
+    letter-spacing: 15px;
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 18%;
+    height: 550px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(193, 203, 235);
+    box-shadow: hsl(221, 30%, 77%) 3px 3px ;
+  }
+  .profile-icon {
+    position: relative;
+  }
+  .lesson img {
+    width: 80%;
+  }
+  .sosmed-wrapper {
+  margin: 10px 0;
+}
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  footer img {
+    height: 100px;
+    width: 200px;
+    padding-left: 55px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 290px;
+    padding-top: 30px;
+    background-color: rgba(34, 49, 52, 0.9);
+    float: left;
+  }
+
+  .footer-list {
+  text-align: center;
+  padding-bottom: 5px; 
+  font-size: 17px;
+  color: white;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 16px;
+  letter-spacing: 7px;
+}
+
+footer p {
+  color: white;
+  letter-spacing: 3px;
+  padding-top: 15px;
+}
+
+  .contack {
+    float: left;
+  }
+  .contack h2 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    letter-spacing: 15px;
+    padding-top: 50px;
+  }
+  .contack-img img {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-item {
+    float: left;
+    padding-top: 40px;
+    margin-right: 40px;
+    width: 15%;
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* Ketik code Anda dibawah */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  .message-wrapper {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    background-color: #f7f7f7;
+  }
+  .message-wrapper h2 {
+    padding-bottom: 70px;
+    text-align: center;
+    position: relative;
+    color: #1b1a1b;
+    letter-spacing: 15px;
+    font-size: 30px;
+    padding-top: 50px;
+  }
