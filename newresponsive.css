@@ -21,6 +21,11 @@
     .profile {
       width: 100%;
     }
+      
+      .heading h1 {
+        font-size: 20px;
+      } 
+
     
     footer {
       text-align: center;
