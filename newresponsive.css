@@ -19,7 +19,7 @@
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
     .profile {
-      width: 90%;
+      width: 100%;
     }
     
     footer {
