@@ -1,8 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .profile-wrapper {
-    width: 1500px;
-    }
+
     
     .profile {
       width: 50%;
@@ -23,9 +21,6 @@
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
       
-      .profile-wrapper {
-      height: 1500px;
-      }
       
     .profile {
       width: 100%;
