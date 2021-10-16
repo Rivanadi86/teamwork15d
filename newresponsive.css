@@ -18,6 +18,11 @@
   
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
+      
+      .profile-wrapper {
+      height: 1500px;
+      }
+      
     .profile {
       width: 100%;
     }
@@ -25,6 +30,8 @@
       .heading h1 {
         font-size: 20px;
       } 
+      
+      .heading
 
     
     footer {
@@ -39,9 +46,11 @@
     .top-wrapper {
       text-align: center;
     }
+      
+      
     .bottom-wrapper {
       text-align: center;
-      width: 100%;
+      width: 25%;
     }
     
     .header-right {
@@ -70,6 +79,7 @@
     .structure img{
       width: 100%;
     }
+      
     .contack{
       width: 30%;
     }
